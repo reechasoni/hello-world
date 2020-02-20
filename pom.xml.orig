@@ -1,17 +1,26 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
+<<<<<<< HEAD
+  <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example.maven-project</groupId>
+  <artifactId>maven-project</artifactId>
+=======
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.example.maven-project</groupId>
+  <artifactId>maven-project</artifactId>
+>>>>>>> title-change
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
-  <url>http://www.mmmexample.com</url>
+  <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>utf-9</project.reporting.outputEncoding>
+    <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
 
   <modules>
